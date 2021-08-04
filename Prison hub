@@ -1,498 +1,114 @@
-	-- Gui to Lua
-	-- Version: 3.2
-
-	-- Instances:
-
-	local PrisonHub = Instance.new("ScreenGui")
-	local Top = Instance.new("Frame")
-	local Frame = Instance.new("Frame")
-	local Frame_2 = Instance.new("Frame")
-	local TextButton = Instance.new("TextButton")
-	local UICorner = Instance.new("UICorner")
-	local TextButton_2 = Instance.new("TextButton")
-	local UICorner_2 = Instance.new("UICorner")
-	local TextButton_3 = Instance.new("TextButton")
-	local UICorner_3 = Instance.new("UICorner")
-	local TextButton_4 = Instance.new("TextButton")
-	local UICorner_4 = Instance.new("UICorner")
-	local TextButton_5 = Instance.new("TextButton")
-	local UICorner_5 = Instance.new("UICorner")
-	local GiveHammer = Instance.new("TextButton")
-	local UICorner_6 = Instance.new("UICorner")
-	local UIGridLayout = Instance.new("UIGridLayout")
-	local TextButton_6 = Instance.new("TextButton")
-	local UICorner_7 = Instance.new("UICorner")
-	local TextButton_7 = Instance.new("TextButton")
-	local UICorner_8 = Instance.new("UICorner")
-	local TextButton_8 = Instance.new("TextButton")
-	local UICorner_9 = Instance.new("UICorner")
-	local TextButton_9 = Instance.new("TextButton")
-	local UICorner_10 = Instance.new("UICorner")
-	local TextButton_10 = Instance.new("TextButton")
-	local UICorner_11 = Instance.new("UICorner")
-	local TextButton_11 = Instance.new("TextButton")
-	local UICorner_12 = Instance.new("UICorner")
-	local TextButton_12 = Instance.new("TextButton")
-	local UICorner_13 = Instance.new("UICorner")
-	local TextButton_13 = Instance.new("TextButton")
-	local UICorner_14 = Instance.new("UICorner")
-	local TextButton_14 = Instance.new("TextButton")
-	local UICorner_15 = Instance.new("UICorner")
-	local TextLabel = Instance.new("TextLabel")
-	local TextLabel_2 = Instance.new("TextLabel")
-	local TextLabel_3 = Instance.new("TextLabel")
-	local UICorner_16 = Instance.new("UICorner")
-	local TextButton_15 = Instance.new("TextButton")
-	local UICorner_17 = Instance.new("UICorner")
-
-	--Properties:
-
-	PrisonHub.Name = "Prison Hub"
-	PrisonHub.Parent = game.CoreGui
-	PrisonHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-	Top.Name = "Top"
-	Top.Parent = PrisonHub
-	Top.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	Top.BorderSizePixel = 0
-	Top.Position = UDim2.new(0.0243697483, 0, 0.207616702, 0)
-	Top.Size = UDim2.new(0, 407, 0, 24)
-
-	Frame.Parent = Top
-	Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-	Frame.BorderSizePixel = 0
-	Frame.Position = UDim2.new(0, 0, 1, 0)
-	Frame.Size = UDim2.new(0, 407, 0, 204)
-
-	Frame_2.Parent = Frame
-	Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Frame_2.BackgroundTransparency = 1.000
-	Frame_2.Position = UDim2.new(0.0393120423, 0, 0.0917431191, 0)
-	Frame_2.Size = UDim2.new(0, 375, 0, 178)
-
-	TextButton.Parent = Frame_2
-	TextButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton.Size = UDim2.new(0, 108, 0, 27)
-	TextButton.Font = Enum.Font.SourceSans
-	TextButton.Text = "Give Remington"
-	TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton.TextSize = 14.000
-
-	UICorner.Parent = TextButton
-
-	TextButton_2.Parent = Frame_2
-	TextButton_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_2.Position = UDim2.new(0.69287467, 0, 0.0733944923, 0)
-	TextButton_2.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_2.Font = Enum.Font.SourceSans
-	TextButton_2.Text = "Give AK"
-	TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_2.TextSize = 14.000
-
-	UICorner_2.Parent = TextButton_2
-
-	TextButton_3.Parent = Frame_2
-	TextButton_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_3.Position = UDim2.new(0.0368550383, 0, 0.0733944923, 0)
-	TextButton_3.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_3.Font = Enum.Font.SourceSans
-	TextButton_3.Text = "Escape Prison"
-	TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_3.TextSize = 14.000
-
-	UICorner_3.Parent = TextButton_3
-
-	TextButton_4.Parent = Frame_2
-	TextButton_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_4.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton_4.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_4.Font = Enum.Font.SourceSans
-	TextButton_4.Text = "Give M9"
-	TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_4.TextSize = 14.000
-
-	UICorner_4.Parent = TextButton_4
-
-	TextButton_5.Parent = Frame_2
-	TextButton_5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_5.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton_5.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_5.Font = Enum.Font.SourceSans
-	TextButton_5.Text = "Give Keycard"
-	TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_5.TextSize = 14.000
-
-	UICorner_5.Parent = TextButton_5
-
-	GiveHammer.Name = "Give Hammer"
-	GiveHammer.Parent = Frame_2
-	GiveHammer.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	GiveHammer.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	GiveHammer.Position = UDim2.new(0.0368550383, 0, 0.0733944923, 0)
-	GiveHammer.Size = UDim2.new(0, 108, 0, 27)
-	GiveHammer.Font = Enum.Font.SourceSans
-	GiveHammer.Text = "Give Hammer"
-	GiveHammer.TextColor3 = Color3.fromRGB(255, 255, 255)
-	GiveHammer.TextSize = 14.000
-
-	UICorner_6.Parent = GiveHammer
-
-	UIGridLayout.Parent = Frame_2
-	UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
-	UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
-	UIGridLayout.CellSize = UDim2.new(0, 120, 0, 30)
-
-	TextButton_6.Parent = Frame_2
-	TextButton_6.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_6.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton_6.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_6.Font = Enum.Font.SourceSans
-	TextButton_6.Text = "Give Knife"
-	TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_6.TextSize = 14.000
-
-	UICorner_7.Parent = TextButton_6
-
-	TextButton_7.Parent = Frame_2
-	TextButton_7.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_7.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton_7.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_7.Font = Enum.Font.SourceSans
-	TextButton_7.Text = "Delete Gate"
-	TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_7.TextSize = 14.000
-
-	UICorner_8.Parent = TextButton_7
-
-	TextButton_8.Parent = Frame_2
-	TextButton_8.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_8.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton_8.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_8.Font = Enum.Font.SourceSans
-	TextButton_8.Text = "Delete Doors"
-	TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_8.TextSize = 14.000
-
-	UICorner_9.Parent = TextButton_8
-
-	TextButton_9.Parent = Frame_2
-	TextButton_9.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_9.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton_9.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_9.Font = Enum.Font.SourceSans
-	TextButton_9.Text = "Fix Screen Glitch"
-	TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_9.TextSize = 14.000
-
-	UICorner_10.Parent = TextButton_9
-
-	TextButton_10.Parent = Frame_2
-	TextButton_10.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_10.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton_10.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_10.Font = Enum.Font.SourceSans
-	TextButton_10.Text = "Free Bobux :O"
-	TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_10.TextSize = 14.000
-
-	UICorner_11.Parent = TextButton_10
-
-	TextButton_11.Parent = Frame_2
-	TextButton_11.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_11.Position = UDim2.new(0.0368550383, 0, 0.0733944923, 0)
-	TextButton_11.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_11.Font = Enum.Font.SourceSans
-	TextButton_11.Text = "Tp To Prison yard"
-	TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_11.TextSize = 14.000
-
-	UICorner_12.Parent = TextButton_11
-
-	TextButton_12.Parent = Frame_2
-	TextButton_12.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_12.Position = UDim2.new(0.0368550383, 0, 0.0733944923, 0)
-	TextButton_12.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_12.Font = Enum.Font.SourceSans
-	TextButton_12.Text = "To Prison"
-	TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_12.TextSize = 14.000
-
-	UICorner_13.Parent = TextButton_12
-
-	TextButton_13.Parent = Frame_2
-	TextButton_13.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_13.Position = UDim2.new(0.0368550383, 0, 0.0733944923, 0)
-	TextButton_13.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_13.Font = Enum.Font.SourceSans
-	TextButton_13.Text = "To WareHouse"
-	TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_13.TextSize = 14.000
-
-	UICorner_14.Parent = TextButton_13
-
-	TextButton_14.Parent = Frame_2
-	TextButton_14.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	TextButton_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_14.Position = UDim2.new(0.366093367, 0, 0.0733944923, 0)
-	TextButton_14.Size = UDim2.new(0, 108, 0, 27)
-	TextButton_14.Font = Enum.Font.SourceSans
-	TextButton_14.Text = "Credits"
-	TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_14.TextSize = 14.000
-
-	UICorner_15.Parent = TextButton_14
-
-	TextLabel.Parent = Frame
-	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.BackgroundTransparency = 1.000
-	TextLabel.Position = UDim2.new(-0.00737100746, 0, 0.949541271, 0)
-	TextLabel.Size = UDim2.new(0, 407, 0, 11)
-	TextLabel.Font = Enum.Font.SourceSans
-	TextLabel.Text = "Made by scivicz#0001"
-	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.TextSize = 14.000
-	TextLabel.TextXAlignment = Enum.TextXAlignment.Right
-	TextLabel.TextYAlignment = Enum.TextYAlignment.Bottom
-
-	TextLabel_2.Parent = Top
-	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_2.BackgroundTransparency = 1.000
-	TextLabel_2.Position = UDim2.new(0.373464376, 0, 0, 0)
-	TextLabel_2.Size = UDim2.new(0, 58, 0, 24)
-	TextLabel_2.Font = Enum.Font.SourceSans
-	TextLabel_2.Text = "Prison"
-	TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_2.TextSize = 14.000
-
-	TextLabel_3.Parent = Top
-	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 128, 1)
-	TextLabel_3.BorderSizePixel = 0
-	TextLabel_3.Position = UDim2.new(0, 206, 0, 2)
-	TextLabel_3.Size = UDim2.new(0, 43, 0, 22)
-	TextLabel_3.Font = Enum.Font.SourceSans
-	TextLabel_3.Text = "Hub"
-	TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-	TextLabel_3.TextSize = 14.000
-
-	UICorner_16.CornerRadius = UDim.new(0, 4)
-	UICorner_16.Parent = TextLabel_3
-
-	TextButton_15.Parent = Top
-	TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-	TextButton_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextButton_15.Position = UDim2.new(0.933660924, 0, 0.156728119, 0)
-	TextButton_15.Size = UDim2.new(0, 18, 0, 18)
-	TextButton_15.Font = Enum.Font.SourceSans
-	TextButton_15.Text = "X"
-	TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextButton_15.TextSize = 14.000
-
-	UICorner_17.CornerRadius = UDim.new(0, 4)
-	UICorner_17.Parent = TextButton_15
-
-	-- Scripts:
-
-	local function EPJM_fake_script() -- TextButton.LocalScript 
-		local script = Instance.new('LocalScript', TextButton)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = workspace.Prison_ITEMS.giver:FindFirstChild("Remington 870").ITEMPICKUP
-			}
-
-			workspace.Remote.ItemHandler:InvokeServer(unpack(args))
-
-		end)
-	end
-	coroutine.wrap(EPJM_fake_script)()
-	local function LXPK_fake_script() -- TextButton_2.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_2)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = workspace.Prison_ITEMS.giver:FindFirstChild("AK-47").ITEMPICKUP
-			}
-
-			workspace.Remote.ItemHandler:InvokeServer(unpack(args))
-
-		end)
-	end
-	coroutine.wrap(LXPK_fake_script)()
-	local function DXUTQ_fake_script() -- TextButton_3.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_3)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(444.32, 97.7802, 2216.33)
-		end)
-	end
-	coroutine.wrap(DXUTQ_fake_script)()
-	local function DFIZGY_fake_script() -- TextButton_4.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_4)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = workspace.Prison_ITEMS.giver:FindFirstChild("M9").ITEMPICKUP
-			}
-
-			workspace.Remote.ItemHandler:InvokeServer(unpack(args))
-
-		end)
-	end
-	coroutine.wrap(DFIZGY_fake_script)()
-	local function KTDSQQ_fake_script() -- TextButton_5.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_5)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = workspace.Prison_ITEMS.single:FindFirstChild("Key card").ITEMPICKUP
-			}
-
-			workspace.Remote.ItemHandler:InvokeServer(unpack(args))
-
-
-		end)
-	end
-	coroutine.wrap(KTDSQQ_fake_script)()
-	local function YDKQJA_fake_script() -- GiveHammer.LocalScript 
-		local script = Instance.new('LocalScript', GiveHammer)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = workspace.Prison_ITEMS.single.Hammer.ITEMPICKUP
-			}
-
-			workspace.Remote.ItemHandler:InvokeServer(unpack(args))
-
-			local args = {
-				[1] = game:GetService("Players").LocalPlayer.Backpack.Hammer
-			}
-
-			game:GetService("ReplicatedStorage").weldEvent:FireServer(unpack(args))
-		end)
-	end
-	coroutine.wrap(YDKQJA_fake_script)()
-	local function VKCIOSH_fake_script() -- TextButton_6.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_6)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = workspace.Prison_ITEMS.single:FindFirstChild("Crude Knife").ITEMPICKUP
-			}
-
-			workspace.Remote.ItemHandler:InvokeServer(unpack(args))
-
-
-		end)
-	end
-	coroutine.wrap(VKCIOSH_fake_script)()
-	local function GZFFJ_fake_script() -- TextButton_7.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_7)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			game.Workspace.Prison_Fences.Prison_Gate:Destroy()
-		end)
-	end
-	coroutine.wrap(GZFFJ_fake_script)()
-	local function QQFBUJD_fake_script() -- TextButton_8.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_8)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			game.Workspace.Doors:Destroy()
-		end)
-	end
-	coroutine.wrap(QQFBUJD_fake_script)()
-	local function EHYB_fake_script() -- TextButton_9.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_9)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			game.Players.LocalPlayer.PlayerGui.Home.fadeFrame:Destroy()
-		end)
-	end
-	coroutine.wrap(EHYB_fake_script)()
-	local function GJRJOA_fake_script() -- TextButton_10.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_10)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = "no free bobux :(",
-				[2] = "All"
-			}
-
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-
-		end)
-	end
-	coroutine.wrap(GJRJOA_fake_script)()
-	local function NHQUB_fake_script() -- TextButton_11.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_11)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(857.19, 97.9999, 2503.68)
-		end)
-	end
-	coroutine.wrap(NHQUB_fake_script)()
-	local function JTKG_fake_script() -- TextButton_12.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_12)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(918.649, 99.99, 2376.54)
-		end)
-	end
-	coroutine.wrap(JTKG_fake_script)()
-	local function YAJJ_fake_script() -- TextButton_13.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_13)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-940.667, 94.1288, 2065.47)
-		end)
-	end
-	coroutine.wrap(YAJJ_fake_script)()
-	local function TRMOSF_fake_script() -- TextButton_14.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_14)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = "Thank you for using Prison Hub Made by scivicz 0001",
-				[2] = "All"
-			}
-
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-
-		end)
-	end
-	coroutine.wrap(TRMOSF_fake_script)()
-	local function UTGKW_fake_script() -- Top.LocalScript 
-		local script = Instance.new('LocalScript', Top)
-
-		script.Parent.Active = true
-		script.Parent.Draggable = true
-	end
-	coroutine.wrap(UTGKW_fake_script)()
-	local function BSZA_fake_script() -- TextButton_15.LocalScript 
-		local script = Instance.new('LocalScript', TextButton_15)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			local args = {
-				[1] = "Closing Prison Hub",
-				[2] = "All"
-			}
-
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-			script.Parent.Parent.Parent:Destroy()
-		end)
-	end
-	coroutine.wrap(BSZA_fake_script)()
+local lib = loadstring(game:HttpGet("https://pastebin.com/raw/9m51VUEE", true))()
+
+function notify(title,text,duration,closebutton)
+	game.StarterGui:SetCore("SendNotification", 
+		{
+			Title = title;
+			Text = text;
+			Duration = duration;
+			Button1 = closebutton
+		}
+	)
+end
+
+lib.SetName("Prison Life Gui")
+lib:CreateButton("Give Remington",function()
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	local args = {
+		[1] = workspace.Prison_ITEMS.giver:FindFirstChild("Remington 870").ITEMPICKUP
+	}
+
+	workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+
+end)
+lib:CreateButton("Give M9",function()
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	local args = {
+		[1] = workspace.Prison_ITEMS.giver.M9.ITEMPICKUP
+	}
+
+	workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+
+end)
+
+lib:CreateButton("Give AK-47",function()
+	local args = {
+		[1] = workspace.Prison_ITEMS.giver.M9.ITEMPICKUP
+	}
+
+	workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+end)
+
+lib:CreateButton("Give Keycard",function()
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	local args = {
+		[1] = workspace.Prison_ITEMS.single:FindFirstChild("Key card").ITEMPICKUP
+	}
+
+	workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+
+end)
+
+lib:CreateButton("Give Hammer",function()
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	local args = {
+		[1] = workspace.Prison_ITEMS.single.Hammer.ITEMPICKUP
+	}
+
+	workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+
+end)
+
+lib:CreateButton("Join Guards",function()
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	local args = {
+		[1] = "Bright blue"
+	}
+
+	workspace.Remote.TeamEvent:FireServer(unpack(args))
+
+end)
+
+lib:CreateButton("Join Immates",function()
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	local args = {
+		[1] = "Bright orange"
+	}
+
+	workspace.Remote.TeamEvent:FireServer(unpack(args))
+
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lib:CreateButton("Copy Invite",function()
+	setclipboard("https://discord.gg/QbYceNx2Zq")
+	notify("Notification","Copied invite to clipboard",15,"Okay")
+end)
+
+lib:CreateButton("Credits",function()
+	notify("Notification","Created by tryfulsss#0710 and Packwatch#0001",15,"Close")
+end)
+
+lib:CreateButton("Destroy Gui",function()
+	game.CoreGui.A:Destroy()
+end)
