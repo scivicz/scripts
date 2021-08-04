@@ -1,0 +1,1345 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local EmojiGui = Instance.new("ScreenGui")
+local Emoji = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Label = Instance.new("TextLabel")
+local Emotes = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Button = Instance.new("TextButton")
+local Button_2 = Instance.new("TextButton")
+local Button_3 = Instance.new("TextButton")
+local Button_4 = Instance.new("TextButton")
+local Button_5 = Instance.new("TextButton")
+local Button_6 = Instance.new("TextButton")
+local Button_7 = Instance.new("TextButton")
+local Button_8 = Instance.new("TextButton")
+local Button_9 = Instance.new("TextButton")
+local Button_10 = Instance.new("TextButton")
+local Button_11 = Instance.new("TextButton")
+local Button_12 = Instance.new("TextButton")
+local Button_13 = Instance.new("TextButton")
+local Button_14 = Instance.new("TextButton")
+local Button_15 = Instance.new("TextButton")
+local Button_16 = Instance.new("TextButton")
+local Button_17 = Instance.new("TextButton")
+local Button_18 = Instance.new("TextButton")
+local Button_19 = Instance.new("TextButton")
+local Button_20 = Instance.new("TextButton")
+local Button_21 = Instance.new("TextButton")
+local Button_22 = Instance.new("TextButton")
+local Button_23 = Instance.new("TextButton")
+local Button_24 = Instance.new("TextButton")
+local Button_25 = Instance.new("TextButton")
+local Button_26 = Instance.new("TextButton")
+local Button_27 = Instance.new("TextButton")
+local Button_28 = Instance.new("TextButton")
+local Button_29 = Instance.new("TextButton")
+local Button_30 = Instance.new("TextButton")
+local Button_31 = Instance.new("TextButton")
+local Button_32 = Instance.new("TextButton")
+local Button_33 = Instance.new("TextButton")
+local Button_34 = Instance.new("TextButton")
+local Button_35 = Instance.new("TextButton")
+local Button_36 = Instance.new("TextButton")
+local Button_37 = Instance.new("TextButton")
+local Button_38 = Instance.new("TextButton")
+local Button_39 = Instance.new("TextButton")
+local Button_40 = Instance.new("TextButton")
+local Button_41 = Instance.new("TextButton")
+local Button_42 = Instance.new("TextButton")
+local Button_43 = Instance.new("TextButton")
+local Button_44 = Instance.new("TextButton")
+local Button_45 = Instance.new("TextButton")
+local Button_46 = Instance.new("TextButton")
+local Button_47 = Instance.new("TextButton")
+local Button_48 = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+EmojiGui.Name = "EmojiGui"
+EmojiGui.Parent = game.CoreGui
+EmojiGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+EmojiGui.ResetOnSpawn = false
+
+Emoji.Name = "Emoji"
+Emoji.Parent = EmojiGui
+Emoji.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Emoji.Position = UDim2.new(0.701171994, 0, 0.0520695597, 0)
+Emoji.Size = UDim2.new(0, 297, 0, 391)
+
+UICorner.Parent = Emoji
+
+Label.Name = "Label"
+Label.Parent = Emoji
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.Size = UDim2.new(0, 297, 0, 26)
+Label.Font = Enum.Font.SourceSans
+Label.Text = "Emoji Hub"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextSize = 14.000
+
+Emotes.Name = "Emotes"
+Emotes.Parent = Emoji
+Emotes.Active = true
+Emotes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Emotes.BackgroundTransparency = 1.000
+Emotes.BorderSizePixel = 0
+Emotes.Position = UDim2.new(0.0606060624, 0, 0.0767263398, 0)
+Emotes.Size = UDim2.new(0, 261, 0, 347)
+Emotes.ScrollBarThickness = 0
+
+UIGridLayout.Parent = Emotes
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 1, 0, 1)
+UIGridLayout.CellSize = UDim2.new(0, 25, 0, 25)
+
+Button.Name = "Button"
+Button.Parent = Emotes
+Button.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button.BackgroundTransparency = 1.000
+Button.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button.Size = UDim2.new(0, 200, 0, 50)
+Button.Font = Enum.Font.SourceSans
+Button.Text = "😂"
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+Button_2.Name = "Button"
+Button_2.Parent = Emotes
+Button_2.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_2.BackgroundTransparency = 1.000
+Button_2.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_2.Size = UDim2.new(0, 200, 0, 50)
+Button_2.Font = Enum.Font.SourceSans
+Button_2.Text = "😀"
+Button_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_2.TextScaled = true
+Button_2.TextSize = 14.000
+Button_2.TextWrapped = true
+
+Button_3.Name = "Button"
+Button_3.Parent = Emotes
+Button_3.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_3.BackgroundTransparency = 1.000
+Button_3.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_3.Size = UDim2.new(0, 200, 0, 50)
+Button_3.Font = Enum.Font.SourceSans
+Button_3.Text = "💀"
+Button_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_3.TextScaled = true
+Button_3.TextSize = 14.000
+Button_3.TextWrapped = true
+
+Button_4.Name = "Button"
+Button_4.Parent = Emotes
+Button_4.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_4.BackgroundTransparency = 1.000
+Button_4.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_4.Size = UDim2.new(0, 200, 0, 50)
+Button_4.Font = Enum.Font.SourceSans
+Button_4.Text = "🤡"
+Button_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_4.TextScaled = true
+Button_4.TextSize = 14.000
+Button_4.TextWrapped = true
+
+Button_5.Name = "Button"
+Button_5.Parent = Emotes
+Button_5.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_5.BackgroundTransparency = 1.000
+Button_5.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_5.Size = UDim2.new(0, 200, 0, 50)
+Button_5.Font = Enum.Font.SourceSans
+Button_5.Text = "😱"
+Button_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_5.TextScaled = true
+Button_5.TextSize = 14.000
+Button_5.TextWrapped = true
+
+Button_6.Name = "Button"
+Button_6.Parent = Emotes
+Button_6.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_6.BackgroundTransparency = 1.000
+Button_6.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_6.Size = UDim2.new(0, 200, 0, 50)
+Button_6.Font = Enum.Font.SourceSans
+Button_6.Text = "😰"
+Button_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_6.TextScaled = true
+Button_6.TextSize = 14.000
+Button_6.TextWrapped = true
+
+Button_7.Name = "Button"
+Button_7.Parent = Emotes
+Button_7.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_7.BackgroundTransparency = 1.000
+Button_7.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_7.Size = UDim2.new(0, 200, 0, 50)
+Button_7.Font = Enum.Font.SourceSans
+Button_7.Text = "😭"
+Button_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_7.TextScaled = true
+Button_7.TextSize = 14.000
+Button_7.TextWrapped = true
+
+Button_8.Name = "Button"
+Button_8.Parent = Emotes
+Button_8.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_8.BackgroundTransparency = 1.000
+Button_8.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_8.Size = UDim2.new(0, 200, 0, 50)
+Button_8.Font = Enum.Font.SourceSans
+Button_8.Text = "😫"
+Button_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_8.TextScaled = true
+Button_8.TextSize = 14.000
+Button_8.TextWrapped = true
+
+Button_9.Name = "Button"
+Button_9.Parent = Emotes
+Button_9.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_9.BackgroundTransparency = 1.000
+Button_9.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_9.Size = UDim2.new(0, 200, 0, 50)
+Button_9.Font = Enum.Font.SourceSans
+Button_9.Text = "😩"
+Button_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_9.TextScaled = true
+Button_9.TextSize = 14.000
+Button_9.TextWrapped = true
+
+Button_10.Name = "Button"
+Button_10.Parent = Emotes
+Button_10.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_10.BackgroundTransparency = 1.000
+Button_10.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_10.Size = UDim2.new(0, 200, 0, 50)
+Button_10.Font = Enum.Font.SourceSans
+Button_10.Text = "🥺"
+Button_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_10.TextScaled = true
+Button_10.TextSize = 14.000
+Button_10.TextWrapped = true
+
+Button_11.Name = "Button"
+Button_11.Parent = Emotes
+Button_11.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_11.BackgroundTransparency = 1.000
+Button_11.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_11.Size = UDim2.new(0, 200, 0, 50)
+Button_11.Font = Enum.Font.SourceSans
+Button_11.Text = "😡"
+Button_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_11.TextScaled = true
+Button_11.TextSize = 14.000
+Button_11.TextWrapped = true
+
+Button_12.Name = "Button"
+Button_12.Parent = Emotes
+Button_12.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_12.BackgroundTransparency = 1.000
+Button_12.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_12.Size = UDim2.new(0, 200, 0, 50)
+Button_12.Font = Enum.Font.SourceSans
+Button_12.Text = "🤗"
+Button_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_12.TextScaled = true
+Button_12.TextSize = 14.000
+Button_12.TextWrapped = true
+
+Button_13.Name = "Button"
+Button_13.Parent = Emotes
+Button_13.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_13.BackgroundTransparency = 1.000
+Button_13.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_13.Size = UDim2.new(0, 200, 0, 50)
+Button_13.Font = Enum.Font.SourceSans
+Button_13.Text = "🥶"
+Button_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_13.TextScaled = true
+Button_13.TextSize = 14.000
+Button_13.TextWrapped = true
+
+Button_14.Name = "Button"
+Button_14.Parent = Emotes
+Button_14.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_14.BackgroundTransparency = 1.000
+Button_14.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_14.Size = UDim2.new(0, 200, 0, 50)
+Button_14.Font = Enum.Font.SourceSans
+Button_14.Text = "🤨"
+Button_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_14.TextScaled = true
+Button_14.TextSize = 14.000
+Button_14.TextWrapped = true
+
+Button_15.Name = "Button"
+Button_15.Parent = Emotes
+Button_15.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_15.BackgroundTransparency = 1.000
+Button_15.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_15.Size = UDim2.new(0, 200, 0, 50)
+Button_15.Font = Enum.Font.SourceSans
+Button_15.Text = "🙌"
+Button_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_15.TextScaled = true
+Button_15.TextSize = 14.000
+Button_15.TextWrapped = true
+
+Button_16.Name = "Button"
+Button_16.Parent = Emotes
+Button_16.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_16.BackgroundTransparency = 1.000
+Button_16.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_16.Size = UDim2.new(0, 200, 0, 50)
+Button_16.Font = Enum.Font.SourceSans
+Button_16.Text = "🧠"
+Button_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_16.TextScaled = true
+Button_16.TextSize = 14.000
+Button_16.TextWrapped = true
+
+Button_17.Name = "Button"
+Button_17.Parent = Emotes
+Button_17.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_17.BackgroundTransparency = 1.000
+Button_17.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_17.Size = UDim2.new(0, 200, 0, 50)
+Button_17.Font = Enum.Font.SourceSans
+Button_17.Text = "👀"
+Button_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_17.TextScaled = true
+Button_17.TextSize = 14.000
+Button_17.TextWrapped = true
+
+Button_18.Name = "Button"
+Button_18.Parent = Emotes
+Button_18.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_18.BackgroundTransparency = 1.000
+Button_18.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_18.Size = UDim2.new(0, 200, 0, 50)
+Button_18.Font = Enum.Font.SourceSans
+Button_18.Text = "😎"
+Button_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_18.TextScaled = true
+Button_18.TextSize = 14.000
+Button_18.TextWrapped = true
+
+Button_19.Name = "Button"
+Button_19.Parent = Emotes
+Button_19.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_19.BackgroundTransparency = 1.000
+Button_19.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_19.Size = UDim2.new(0, 200, 0, 50)
+Button_19.Font = Enum.Font.SourceSans
+Button_19.Text = "💩"
+Button_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_19.TextScaled = true
+Button_19.TextSize = 14.000
+Button_19.TextWrapped = true
+
+Button_20.Name = "Button"
+Button_20.Parent = Emotes
+Button_20.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_20.BackgroundTransparency = 1.000
+Button_20.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_20.Size = UDim2.new(0, 200, 0, 50)
+Button_20.Font = Enum.Font.SourceSans
+Button_20.Text = "😇"
+Button_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_20.TextScaled = true
+Button_20.TextSize = 14.000
+Button_20.TextWrapped = true
+
+Button_21.Name = "Button"
+Button_21.Parent = Emotes
+Button_21.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_21.BackgroundTransparency = 1.000
+Button_21.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_21.Size = UDim2.new(0, 200, 0, 50)
+Button_21.Font = Enum.Font.SourceSans
+Button_21.Text = "😼"
+Button_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_21.TextScaled = true
+Button_21.TextSize = 14.000
+Button_21.TextWrapped = true
+
+Button_22.Name = "Button"
+Button_22.Parent = Emotes
+Button_22.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_22.BackgroundTransparency = 1.000
+Button_22.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_22.Size = UDim2.new(0, 200, 0, 50)
+Button_22.Font = Enum.Font.SourceSans
+Button_22.Text = "😾"
+Button_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_22.TextScaled = true
+Button_22.TextSize = 14.000
+Button_22.TextWrapped = true
+
+Button_23.Name = "Button"
+Button_23.Parent = Emotes
+Button_23.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_23.BackgroundTransparency = 1.000
+Button_23.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_23.Size = UDim2.new(0, 200, 0, 50)
+Button_23.Font = Enum.Font.SourceSans
+Button_23.Text = "🤣"
+Button_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_23.TextScaled = true
+Button_23.TextSize = 14.000
+Button_23.TextWrapped = true
+
+Button_24.Name = "Button"
+Button_24.Parent = Emotes
+Button_24.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_24.BackgroundTransparency = 1.000
+Button_24.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_24.Size = UDim2.new(0, 200, 0, 50)
+Button_24.Font = Enum.Font.SourceSans
+Button_24.Text = "🤩"
+Button_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_24.TextScaled = true
+Button_24.TextSize = 14.000
+Button_24.TextWrapped = true
+
+Button_25.Name = "Button"
+Button_25.Parent = Emotes
+Button_25.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_25.BackgroundTransparency = 1.000
+Button_25.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_25.Size = UDim2.new(0, 200, 0, 50)
+Button_25.Font = Enum.Font.SourceSans
+Button_25.Text = "😏"
+Button_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_25.TextScaled = true
+Button_25.TextSize = 14.000
+Button_25.TextWrapped = true
+
+Button_26.Name = "Button"
+Button_26.Parent = Emotes
+Button_26.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_26.BackgroundTransparency = 1.000
+Button_26.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_26.Size = UDim2.new(0, 200, 0, 50)
+Button_26.Font = Enum.Font.SourceSans
+Button_26.Text = "😒"
+Button_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_26.TextScaled = true
+Button_26.TextSize = 14.000
+Button_26.TextWrapped = true
+
+Button_27.Name = "Button"
+Button_27.Parent = Emotes
+Button_27.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_27.BackgroundTransparency = 1.000
+Button_27.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_27.Size = UDim2.new(0, 200, 0, 50)
+Button_27.Font = Enum.Font.SourceSans
+Button_27.Text = "😔"
+Button_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_27.TextScaled = true
+Button_27.TextSize = 14.000
+Button_27.TextWrapped = true
+
+Button_28.Name = "Button"
+Button_28.Parent = Emotes
+Button_28.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_28.BackgroundTransparency = 1.000
+Button_28.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_28.Size = UDim2.new(0, 200, 0, 50)
+Button_28.Font = Enum.Font.SourceSans
+Button_28.Text = "😕"
+Button_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_28.TextScaled = true
+Button_28.TextSize = 14.000
+Button_28.TextWrapped = true
+
+Button_29.Name = "Button"
+Button_29.Parent = Emotes
+Button_29.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_29.BackgroundTransparency = 1.000
+Button_29.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_29.Size = UDim2.new(0, 200, 0, 50)
+Button_29.Font = Enum.Font.SourceSans
+Button_29.Text = "🤮"
+Button_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_29.TextScaled = true
+Button_29.TextSize = 14.000
+Button_29.TextWrapped = true
+
+Button_30.Name = "Button"
+Button_30.Parent = Emotes
+Button_30.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_30.BackgroundTransparency = 1.000
+Button_30.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_30.Size = UDim2.new(0, 200, 0, 50)
+Button_30.Font = Enum.Font.SourceSans
+Button_30.Text = "😈"
+Button_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_30.TextScaled = true
+Button_30.TextSize = 14.000
+Button_30.TextWrapped = true
+
+Button_31.Name = "Button"
+Button_31.Parent = Emotes
+Button_31.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_31.BackgroundTransparency = 1.000
+Button_31.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_31.Size = UDim2.new(0, 200, 0, 50)
+Button_31.Font = Enum.Font.SourceSans
+Button_31.Text = "👻"
+Button_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_31.TextScaled = true
+Button_31.TextSize = 14.000
+Button_31.TextWrapped = true
+
+Button_32.Name = "Button"
+Button_32.Parent = Emotes
+Button_32.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_32.BackgroundTransparency = 1.000
+Button_32.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_32.Size = UDim2.new(0, 200, 0, 50)
+Button_32.Font = Enum.Font.SourceSans
+Button_32.Text = "👊"
+Button_32.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_32.TextScaled = true
+Button_32.TextSize = 14.000
+Button_32.TextWrapped = true
+
+Button_33.Name = "Button"
+Button_33.Parent = Emotes
+Button_33.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_33.BackgroundTransparency = 1.000
+Button_33.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_33.Size = UDim2.new(0, 200, 0, 50)
+Button_33.Font = Enum.Font.SourceSans
+Button_33.Text = "👍"
+Button_33.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_33.TextScaled = true
+Button_33.TextSize = 14.000
+Button_33.TextWrapped = true
+
+Button_34.Name = "Button"
+Button_34.Parent = Emotes
+Button_34.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_34.BackgroundTransparency = 1.000
+Button_34.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_34.Size = UDim2.new(0, 200, 0, 50)
+Button_34.Font = Enum.Font.SourceSans
+Button_34.Text = "👎"
+Button_34.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_34.TextScaled = true
+Button_34.TextSize = 14.000
+Button_34.TextWrapped = true
+
+Button_35.Name = "Button"
+Button_35.Parent = Emotes
+Button_35.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_35.BackgroundTransparency = 1.000
+Button_35.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_35.Size = UDim2.new(0, 200, 0, 50)
+Button_35.Font = Enum.Font.SourceSans
+Button_35.Text = "🤛"
+Button_35.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_35.TextScaled = true
+Button_35.TextSize = 14.000
+Button_35.TextWrapped = true
+
+Button_36.Name = "Button"
+Button_36.Parent = Emotes
+Button_36.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_36.BackgroundTransparency = 1.000
+Button_36.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_36.Size = UDim2.new(0, 200, 0, 50)
+Button_36.Font = Enum.Font.SourceSans
+Button_36.Text = "🤜"
+Button_36.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_36.TextScaled = true
+Button_36.TextSize = 14.000
+Button_36.TextWrapped = true
+
+Button_37.Name = "Button"
+Button_37.Parent = Emotes
+Button_37.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_37.BackgroundTransparency = 1.000
+Button_37.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_37.Size = UDim2.new(0, 200, 0, 50)
+Button_37.Font = Enum.Font.SourceSans
+Button_37.Text = "🤏"
+Button_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_37.TextScaled = true
+Button_37.TextSize = 14.000
+Button_37.TextWrapped = true
+
+Button_38.Name = "Button"
+Button_38.Parent = Emotes
+Button_38.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_38.BackgroundTransparency = 1.000
+Button_38.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_38.Size = UDim2.new(0, 200, 0, 50)
+Button_38.Font = Enum.Font.SourceSans
+Button_38.Text = "🙈"
+Button_38.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_38.TextScaled = true
+Button_38.TextSize = 14.000
+Button_38.TextWrapped = true
+
+Button_39.Name = "Button"
+Button_39.Parent = Emotes
+Button_39.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_39.BackgroundTransparency = 1.000
+Button_39.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_39.Size = UDim2.new(0, 200, 0, 50)
+Button_39.Font = Enum.Font.SourceSans
+Button_39.Text = "🤤"
+Button_39.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_39.TextScaled = true
+Button_39.TextSize = 14.000
+Button_39.TextWrapped = true
+
+Button_40.Name = "Button"
+Button_40.Parent = Emotes
+Button_40.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_40.BackgroundTransparency = 1.000
+Button_40.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_40.Size = UDim2.new(0, 200, 0, 50)
+Button_40.Font = Enum.Font.SourceSans
+Button_40.Text = "😨"
+Button_40.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_40.TextScaled = true
+Button_40.TextSize = 14.000
+Button_40.TextWrapped = true
+
+Button_41.Name = "Button"
+Button_41.Parent = Emotes
+Button_41.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_41.BackgroundTransparency = 1.000
+Button_41.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_41.Size = UDim2.new(0, 200, 0, 50)
+Button_41.Font = Enum.Font.SourceSans
+Button_41.Text = "🤔"
+Button_41.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_41.TextScaled = true
+Button_41.TextSize = 14.000
+Button_41.TextWrapped = true
+
+Button_42.Name = "Button"
+Button_42.Parent = Emotes
+Button_42.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_42.BackgroundTransparency = 1.000
+Button_42.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_42.Size = UDim2.new(0, 200, 0, 50)
+Button_42.Font = Enum.Font.SourceSans
+Button_42.Text = "🤕"
+Button_42.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_42.TextScaled = true
+Button_42.TextSize = 14.000
+Button_42.TextWrapped = true
+
+Button_43.Name = "Button"
+Button_43.Parent = Emotes
+Button_43.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_43.BackgroundTransparency = 1.000
+Button_43.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_43.Size = UDim2.new(0, 200, 0, 50)
+Button_43.Font = Enum.Font.SourceSans
+Button_43.Text = "🤷‍♂️"
+Button_43.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_43.TextScaled = true
+Button_43.TextSize = 14.000
+Button_43.TextWrapped = true
+
+Button_44.Name = "Button"
+Button_44.Parent = Emotes
+Button_44.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_44.BackgroundTransparency = 1.000
+Button_44.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_44.Size = UDim2.new(0, 200, 0, 50)
+Button_44.Font = Enum.Font.SourceSans
+Button_44.Text = "😳"
+Button_44.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_44.TextScaled = true
+Button_44.TextSize = 14.000
+Button_44.TextWrapped = true
+
+Button_45.Name = "Button"
+Button_45.Parent = Emotes
+Button_45.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_45.BackgroundTransparency = 1.000
+Button_45.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_45.Size = UDim2.new(0, 200, 0, 50)
+Button_45.Font = Enum.Font.SourceSans
+Button_45.Text = "🤓"
+Button_45.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_45.TextScaled = true
+Button_45.TextSize = 14.000
+Button_45.TextWrapped = true
+
+Button_46.Name = "Button"
+Button_46.Parent = Emotes
+Button_46.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_46.BackgroundTransparency = 1.000
+Button_46.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_46.Size = UDim2.new(0, 200, 0, 50)
+Button_46.Font = Enum.Font.SourceSans
+Button_46.Text = "😐"
+Button_46.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_46.TextScaled = true
+Button_46.TextSize = 14.000
+Button_46.TextWrapped = true
+
+Button_47.Name = "Button"
+Button_47.Parent = Emotes
+Button_47.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_47.BackgroundTransparency = 1.000
+Button_47.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_47.Size = UDim2.new(0, 200, 0, 50)
+Button_47.Font = Enum.Font.SourceSans
+Button_47.Text = "😑"
+Button_47.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_47.TextScaled = true
+Button_47.TextSize = 14.000
+Button_47.TextWrapped = true
+
+Button_48.Name = "Button"
+Button_48.Parent = Emotes
+Button_48.BackgroundColor3 = Color3.fromRGB(0, 0, 113)
+Button_48.BackgroundTransparency = 1.000
+Button_48.Position = UDim2.new(0.5080989, 0, 0.604422629, 0)
+Button_48.Size = UDim2.new(0, 200, 0, 50)
+Button_48.Font = Enum.Font.SourceSans
+Button_48.Text = "👺"
+Button_48.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_48.TextScaled = true
+Button_48.TextSize = 14.000
+Button_48.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Emoji
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.920000017, 0, 0.0127877239, 0)
+Close.Size = UDim2.new(0, 21, 0, 21)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 14.000
+
+UICorner_2.Parent = Close
+
+-- Scripts:
+
+local function UEMO_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😂",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(UEMO_fake_script)()
+local function SNTTWPZ_fake_script() -- Button_2.LocalScript 
+	local script = Instance.new('LocalScript', Button_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😀",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(SNTTWPZ_fake_script)()
+local function ORISA_fake_script() -- Button_3.LocalScript 
+	local script = Instance.new('LocalScript', Button_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "💀",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ORISA_fake_script)()
+local function CSQLAJS_fake_script() -- Button_4.LocalScript 
+	local script = Instance.new('LocalScript', Button_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤡",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(CSQLAJS_fake_script)()
+local function CSIUQTE_fake_script() -- Button_5.LocalScript 
+	local script = Instance.new('LocalScript', Button_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😱",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(CSIUQTE_fake_script)()
+local function VMGKKR_fake_script() -- Button_6.LocalScript 
+	local script = Instance.new('LocalScript', Button_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😰",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(VMGKKR_fake_script)()
+local function JPAB_fake_script() -- Button_7.LocalScript 
+	local script = Instance.new('LocalScript', Button_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😭",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(JPAB_fake_script)()
+local function SGKJ_fake_script() -- Button_8.LocalScript 
+	local script = Instance.new('LocalScript', Button_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😫",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(SGKJ_fake_script)()
+local function APLMYN_fake_script() -- Button_9.LocalScript 
+	local script = Instance.new('LocalScript', Button_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😩",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(APLMYN_fake_script)()
+local function HWNW_fake_script() -- Button_10.LocalScript 
+	local script = Instance.new('LocalScript', Button_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🥺",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(HWNW_fake_script)()
+local function VEZY_fake_script() -- Button_11.LocalScript 
+	local script = Instance.new('LocalScript', Button_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😡",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(VEZY_fake_script)()
+local function NSTNRTW_fake_script() -- Button_12.LocalScript 
+	local script = Instance.new('LocalScript', Button_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤗",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(NSTNRTW_fake_script)()
+local function TXLGQM_fake_script() -- Button_13.LocalScript 
+	local script = Instance.new('LocalScript', Button_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🥶",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(TXLGQM_fake_script)()
+local function ENTFT_fake_script() -- Button_14.LocalScript 
+	local script = Instance.new('LocalScript', Button_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤨",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ENTFT_fake_script)()
+local function SYXFK_fake_script() -- Button_15.LocalScript 
+	local script = Instance.new('LocalScript', Button_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🙌",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(SYXFK_fake_script)()
+local function NPUSBAM_fake_script() -- Button_16.LocalScript 
+	local script = Instance.new('LocalScript', Button_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🧠",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(NPUSBAM_fake_script)()
+local function TQJMRT_fake_script() -- Button_17.LocalScript 
+	local script = Instance.new('LocalScript', Button_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "👀",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(TQJMRT_fake_script)()
+local function CXTJA_fake_script() -- Button_18.LocalScript 
+	local script = Instance.new('LocalScript', Button_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😎",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(CXTJA_fake_script)()
+local function BQOMS_fake_script() -- Button_19.LocalScript 
+	local script = Instance.new('LocalScript', Button_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "💩",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(BQOMS_fake_script)()
+local function TMOL_fake_script() -- Button_20.LocalScript 
+	local script = Instance.new('LocalScript', Button_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😇",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(TMOL_fake_script)()
+local function ACBQTI_fake_script() -- Button_21.LocalScript 
+	local script = Instance.new('LocalScript', Button_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😼",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ACBQTI_fake_script)()
+local function LTRN_fake_script() -- Button_22.LocalScript 
+	local script = Instance.new('LocalScript', Button_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😾",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(LTRN_fake_script)()
+local function VGCL_fake_script() -- Button_23.LocalScript 
+	local script = Instance.new('LocalScript', Button_23)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤣",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(VGCL_fake_script)()
+local function UQNP_fake_script() -- Button_24.LocalScript 
+	local script = Instance.new('LocalScript', Button_24)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤩",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(UQNP_fake_script)()
+local function LBZZK_fake_script() -- Button_25.LocalScript 
+	local script = Instance.new('LocalScript', Button_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😏",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(LBZZK_fake_script)()
+local function NXSEIO_fake_script() -- Button_26.LocalScript 
+	local script = Instance.new('LocalScript', Button_26)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😒",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(NXSEIO_fake_script)()
+local function NRYINCJ_fake_script() -- Button_27.LocalScript 
+	local script = Instance.new('LocalScript', Button_27)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😔",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(NRYINCJ_fake_script)()
+local function JNCV_fake_script() -- Button_28.LocalScript 
+	local script = Instance.new('LocalScript', Button_28)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😕",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(JNCV_fake_script)()
+local function KXYHRJD_fake_script() -- Button_29.LocalScript 
+	local script = Instance.new('LocalScript', Button_29)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤮",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(KXYHRJD_fake_script)()
+local function FFSG_fake_script() -- Button_30.LocalScript 
+	local script = Instance.new('LocalScript', Button_30)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😈",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(FFSG_fake_script)()
+local function ARKNUP_fake_script() -- Button_31.LocalScript 
+	local script = Instance.new('LocalScript', Button_31)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "👻",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ARKNUP_fake_script)()
+local function XAWSDW_fake_script() -- Button_32.LocalScript 
+	local script = Instance.new('LocalScript', Button_32)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "👊",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(XAWSDW_fake_script)()
+local function NXKJDWW_fake_script() -- Button_33.LocalScript 
+	local script = Instance.new('LocalScript', Button_33)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "👍",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(NXKJDWW_fake_script)()
+local function IDZV_fake_script() -- Button_34.LocalScript 
+	local script = Instance.new('LocalScript', Button_34)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "👎",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(IDZV_fake_script)()
+local function ONWVYIP_fake_script() -- Button_35.LocalScript 
+	local script = Instance.new('LocalScript', Button_35)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤛",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ONWVYIP_fake_script)()
+local function RING_fake_script() -- Button_36.LocalScript 
+	local script = Instance.new('LocalScript', Button_36)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤜",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(RING_fake_script)()
+local function ZLMPRKU_fake_script() -- Button_37.LocalScript 
+	local script = Instance.new('LocalScript', Button_37)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤏",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ZLMPRKU_fake_script)()
+local function IICY_fake_script() -- Button_38.LocalScript 
+	local script = Instance.new('LocalScript', Button_38)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🙈",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(IICY_fake_script)()
+local function GIVT_fake_script() -- Button_39.LocalScript 
+	local script = Instance.new('LocalScript', Button_39)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤤",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(GIVT_fake_script)()
+local function ELSARZ_fake_script() -- Button_40.LocalScript 
+	local script = Instance.new('LocalScript', Button_40)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😨",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ELSARZ_fake_script)()
+local function GHWURTO_fake_script() -- Button_41.LocalScript 
+	local script = Instance.new('LocalScript', Button_41)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤔",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(GHWURTO_fake_script)()
+local function SNMCSTT_fake_script() -- Button_42.LocalScript 
+	local script = Instance.new('LocalScript', Button_42)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤕",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(SNMCSTT_fake_script)()
+local function LQCW_fake_script() -- Button_43.LocalScript 
+	local script = Instance.new('LocalScript', Button_43)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤷‍♂️",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(LQCW_fake_script)()
+local function OQIYIU_fake_script() -- Button_44.LocalScript 
+	local script = Instance.new('LocalScript', Button_44)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😳",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(OQIYIU_fake_script)()
+local function CHEUYE_fake_script() -- Button_45.LocalScript 
+	local script = Instance.new('LocalScript', Button_45)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "🤓",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(CHEUYE_fake_script)()
+local function MEZLMK_fake_script() -- Button_46.LocalScript 
+	local script = Instance.new('LocalScript', Button_46)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😐",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(MEZLMK_fake_script)()
+local function WUJAHZS_fake_script() -- Button_47.LocalScript 
+	local script = Instance.new('LocalScript', Button_47)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "😑",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(WUJAHZS_fake_script)()
+local function SDPGV_fake_script() -- Button_48.LocalScript 
+	local script = Instance.new('LocalScript', Button_48)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "👺",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(SDPGV_fake_script)()
+local function DTOT_fake_script() -- Emoji.LocalScript 
+	local script = Instance.new('LocalScript', Emoji)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(DTOT_fake_script)()
+local function PTFI_fake_script() -- EmojiGui.LocalScript 
+	local script = Instance.new('LocalScript', EmojiGui)
+
+	local StarterGui = game:GetService("StarterGui")
+	StarterGui:SetCore("SendNotification",{
+		Title = "Emoji Hub Loaded",
+		Text = "yes",
+		Duration = 30,
+		Button1 = "Okay",
+	})
+end
+coroutine.wrap(PTFI_fake_script)()
+local function ZBJNFV_fake_script() -- EmojiGui.LocalScript 
+	local script = Instance.new('LocalScript', EmojiGui)
+
+end
+coroutine.wrap(ZBJNFV_fake_script)()
+
+Close.MouseButton1Click:Connect(function()
+	EmojiGui:Destroy()
+end)
