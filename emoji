@@ -1324,19 +1324,10 @@ end
 coroutine.wrap(DTOT_fake_script)()
 local function PTFI_fake_script() -- EmojiGui.LocalScript 
 	local script = Instance.new('LocalScript', EmojiGui)
-
-	local StarterGui = game:GetService("StarterGui")
-	StarterGui:SetCore("SendNotification",{
-		Title = "Emoji Hub Loaded",
-		Text = "yes",
-		Duration = 30,
-		Button1 = "Okay",
-	})
 end
 coroutine.wrap(PTFI_fake_script)()
 local function ZBJNFV_fake_script() -- EmojiGui.LocalScript 
 	local script = Instance.new('LocalScript', EmojiGui)
-
 end
 coroutine.wrap(ZBJNFV_fake_script)()
 
